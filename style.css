@@ -109,8 +109,7 @@ body {
 
     .input-box input {
         font-size: 0.85rem;
-        height: 20px;
-        padding: 10px 30px 10px 15px;
+        padding: 10px 30px 10px 10px;
     }
 
     .wrapper .btn {
