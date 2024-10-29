@@ -86,7 +86,7 @@ p {
 
 
 /* Media Query untuk tampilan HP */
-@media (max-width: 375px) {
+@media (max-width: 1024px) {
     .hasil {
         padding: 40px;
         border-radius: 15px;

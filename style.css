@@ -70,7 +70,7 @@ body {
 }
 
 /* Responsive design for mobile devices */
-@media (max-width: 375px) {
+@media (max-width: 1024px) {
     body {
         padding: 10px;
     }
