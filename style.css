@@ -72,7 +72,7 @@ body {
 /* Responsive design for mobile devices */
 @media (max-width: 600px) {
     body {
-        padding: 12px;
+        padding: 20px;
     }
     
     .wrapper {
