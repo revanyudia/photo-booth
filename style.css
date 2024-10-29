@@ -69,27 +69,51 @@ body {
     font-weight: 600;
 }
 
-/* Responsive design for mobile devices */
-@media (max-width: 600px) {
-    body {
+/* Media Query for medium screens (tablets) */
+@media (max-width: 768px) {
+    .wrapper {
+        width: 80vw; /* Use 80% of the viewport width */
+        padding: 25px 30px;
+    }
+
+    .wrapper h1 {
+        font-size: 2rem;
+    }
+
+    .input-box input {
+        font-size: 0.9rem;
+        padding: 15px 35px 15px 15px;
+    }
+
+    .wrapper .btn {
+        height: 40px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Media Query for smaller screens (phones) */
+@media (max-width: 480px) {
+    .wrapper {
+        width: 90vw; /* Use 90% of the viewport width */
         padding: 20px;
     }
-    
-    .wrapper {
-        width: 70%;  /* Make the wrapper full width on mobile */
-        padding: 20px; /* Add padding so it doesn't touch the screen edges */
-    }
-    
+
     .wrapper h1 {
-        font-size: 28px; /* Reduce font size for the heading on mobile */
+        font-size: 1.75rem;
     }
-    
+
+    .input-box {
+        height: 45px;
+        margin: 15px 0;
+    }
+
     .input-box input {
-        font-size: 15px; /* Adjust input font size for mobile */
+        font-size: 0.85rem;
+        padding: 10px 30px 10px 15px;
     }
-    
+
     .wrapper .btn {
-        height: 40px; /* Slightly reduce button size */
-        font-size: 15px;
+        height: 40px;
+        font-size: 0.85rem;
     }
 }
