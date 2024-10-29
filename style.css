@@ -72,7 +72,7 @@ body {
 /* Responsive design for mobile devices */
 @media (max-width: 1024px) {
     body {
-        padding: 8px;
+        padding: 12px;
     }
     
     .wrapper {
@@ -85,11 +85,11 @@ body {
     }
     
     .input-box input {
-        font-size: 10px; /* Adjust input font size for mobile */
+        font-size: 15px; /* Adjust input font size for mobile */
     }
     
     .wrapper .btn {
         height: 40px; /* Slightly reduce button size */
-        font-size: 10px;
+        font-size: 15px;
     }
 }
